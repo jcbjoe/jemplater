@@ -1,2 +1,3 @@
-# templater
-A super simple library to help "render" template files from json or yaml variable files.
+# Templater
+
+A super simple CLI for generating files from templates.

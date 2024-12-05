@@ -1,0 +1,27 @@
+[project]
+dynamic = ["dependencies"]
+name = "templater"
+version = "1.0.0"
+authors = [
+  { name="Joe Garlick", email="joe@flipcx.com" },
+]
+description = "A utility package for compiling template files"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3.11"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/jcbjoe/templater"
+Issues = "https://github.com/jcbjoe/templater/issues"
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.scripts]
+templater = "templater.main:app"
