@@ -1,7 +1,7 @@
 [project]
 dynamic = ["dependencies"]
 name = "jemplater"
-version = "1.0.2"
+version = "1.0.3"
 authors = [
   { name="Joe Garlick", email="joe@garlickbread.com" },
 ]
@@ -37,4 +37,4 @@ Issues = "https://github.com/jcbjoe/jemplater/issues"
 dependencies = {file = ["requirements.txt"]}
 
 [project.scripts]
-templater = "templater.main:app"
+jemplater = "jemplater.main:app"
