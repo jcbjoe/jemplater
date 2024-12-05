@@ -1,11 +1,11 @@
 [project]
 dynamic = ["dependencies"]
-name = "templater"
+name = "jemplater"
 version = "1.0.0"
 authors = [
-  { name="Joe Garlick", email="joe@flipcx.com" },
+  { name="Joe Garlick", email="joe@garlickbread.com" },
 ]
-description = "A utility package for compiling template files"
+description = "A utility package for compiling template files using Jinja2 and JSON/YAML variable files"
 readme = "README.md"
 requires-python = ">=3.11"
 classifiers = [
@@ -17,8 +17,8 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project.urls]
-Homepage = "https://github.com/jcbjoe/templater"
-Issues = "https://github.com/jcbjoe/templater/issues"
+Homepage = "https://github.com/jcbjoe/jemplater"
+Issues = "https://github.com/jcbjoe/jemplater/issues"
 
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}

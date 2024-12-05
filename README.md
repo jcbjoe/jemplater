@@ -1,3 +1,3 @@
-# Templater
+# Jemplater
 
-A super simple CLI for generating files from templates.
+A utility package for compiling template files using Jinja2 and JSON/YAML variable files
